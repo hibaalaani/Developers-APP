@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://hiba:ilovehajirsarah2020@cluster0-9otyf.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecret"
+}
