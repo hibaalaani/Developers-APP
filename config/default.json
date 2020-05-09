@@ -1,0 +1,7 @@
+{
+  "mongoURI": "mongodb+srv://hiba:ilovehajirsarah2020@cluster0-9otyf.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret",
+  //   "githubClientId": "2e2c12587b221b28c1cd",
+  //   "githubSecret": "7ea4755f42e1cfb0e196e8b47cc5c458c89d7f52",
+  "githubToken": "25fb1e5881738efefdfeb5e0bec9c4f11af9a07f "
+}
