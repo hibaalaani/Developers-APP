@@ -9,8 +9,8 @@ export default () => (
         width: "200px",
         margin: "auto",
         display: "block",
-        alt: "Loading ...",
       }}
+      alt="Loading ..."
     />
   </Fragment>
 );
