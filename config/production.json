@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://hiba:ilovehajirsarah2020@cluster0-9otyf.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret",
+  "githubToken": "0ac2a7ebb1657ed0348a661f271ae1867885b6bd"
+}
