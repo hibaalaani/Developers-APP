@@ -115,6 +115,7 @@ export const getGithubRepos = (username) => async (dispatch) => {
       type: PROFILE_ERROR,
       payload: { msg: err.response.statusText, status: err.response.status },
     });
+    dispatch(setAlert(`No Github Found for this ${username}`, "danger", 5000));
   }
 };
 
