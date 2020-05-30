@@ -19,7 +19,7 @@ const EditProfile = ({
     bio: "",
     twitter: "",
     facebook: "",
-    linkden: "",
+    linkedin: "",
     youtube: "",
     instagram: "",
   });
@@ -37,7 +37,7 @@ const EditProfile = ({
       bio: loading || !profile.bio ? "" : profile.bio,
       twitter: loading || !profile.social ? "" : profile.social.twitter,
       facebook: loading || !profile.social ? "" : profile.social.facebook,
-      linkden: loading || !profile.social ? "" : profile.social.linkden,
+      linkedin: loading || !profile.social ? "" : profile.social.linkedin,
       youtube: loading || !profile.social ? "" : profile.social.youtube,
       instagram: loading || !profile.social ? "" : profile.social.instagram,
     });
@@ -52,7 +52,7 @@ const EditProfile = ({
     bio,
     twitter,
     facebook,
-    linkden,
+    linkedin,
     youtube,
     instagram,
   } = formData;
@@ -208,7 +208,7 @@ const EditProfile = ({
                 type="text"
                 placeholder="Linkedin URL"
                 name="linkedin"
-                value={linkden}
+                value={linkedin}
                 onChange={(e) => onChange(e)}
               />
             </div>
